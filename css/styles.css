@@ -1,0 +1,184 @@
+
+    
+/*логотип*/
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26;
+    line-height: 1.19;
+    letter-spacing: 0.03;
+}
+a {
+    text-decoration: none; /* Скасовуємо підкреслення у посилань */
+    }
+   /*шрифт і колір для сторінок*/
+    .style{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    }
+
+/*навігація*/
+li {
+    display: block;
+  }
+  .nav-one{
+    font-weight: 500;
+    font-size: 14;
+    line-height: 1.14;
+    letter-spacing: 0.02;
+    color: #2196f3;
+  }
+  .nav-two{
+    font-weight: 500;
+    font-size: 14;
+    line-height: 1.14;
+    letter-spacing: 0.02;
+    color: #212121;
+  }
+  .nav-three{
+    font-weight: 500;
+    font-size: 14;
+    line-height: 1.14;
+    letter-spacing: 0.02;
+    color: #212121;
+   
+  }
+  .number{
+    font-weight: 500;
+    font-size: 14;
+    line-height: 1.14;
+    letter-spacing: 0.02;
+    color:#757575;
+  }
+  /*заголовок*/
+  .title{
+    font-weight: 900;
+    font-size: 44;
+    line-height: 1.36;
+    letter-spacing: 0.06;
+    text-align: center;
+    text-transform: uppercase;
+    color:#ffffff;
+    background-color: #2f303A;
+  }
+  
+  .button{
+        margin: 0 auto;
+         display: block; 
+        border: 0;
+        border-radius: 5px;
+        background: #2196f3;
+        color: #fff;
+         padding: 8px 16px;
+        font-size: 16px;
+  }
+  
+  /*основне*/
+  .main-one{
+  font-weight: 700;
+  font-size: 14;
+  line-height: 1.14;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
+  
+}
+ 
+.text{
+     font-weight: 400;
+  font-size: 14;
+  line-height: 1.71;
+  letter-spacing: 0.03;
+  color:# 757575;
+  }
+ 
+  /*робота*/
+  .work{
+       font-weight: 700;
+    font-size: 36;
+    line-height: 1.16;
+    letter-spacing: 0.03;
+    text-align: center;
+    
+  }
+  
+  /*команда*/
+  .teams{
+       font-weight: 700;
+    font-size: 36;
+    line-height: 1.16;
+    letter-spacing: 0.03;
+    text-align: center;
+   
+  }
+
+  .team{
+       font-weight: 500;
+    font-size: 16;
+    line-height: 1.18;
+    letter-spacing: 0.03;   
+}
+
+.team-one{
+    font-weight: 400;
+    font-size: 16;
+    line-height: 1.18;
+    letter-spacing: 0.03;
+       color:#757575;  
+}
+
+/*підвал*/
+.footer{
+    background-color: #2f303A;
+    }
+.address{
+    font-style: normal;  
+    font-weight: 400;
+    font-size: 14;
+    line-height: 1.71;
+    letter-spacing: 0.03; 
+    color: #ffffff;
+}
+.link,
+.telefon{ 
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 14;
+    line-height: 1.71;
+    letter-spacing: 0.03; 
+    color: rgb(255,255,255,0.6)    
+}
+
+/*портфоліо*/
+.button-one{
+border: 0;
+border-radius: 5px;
+background: #2196f3;
+color: #fff;
+padding: 8px 16px;
+font-size: 16px;
+}
+/*меню кнопки*/
+.button-two{
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.6;
+    letter-spacing: 0.03; 
+    text-align: center; 
+    
+}
+/*портфоліо роботи*/
+.work-port{
+    font-weight:700;
+    font-size: 18;
+    line-height: 2;
+    letter-spacing: 0.06; 
+    
+}
+.work-one{
+    font-weight: 400;
+    font-size: 16;
+    line-height: 1.87;
+    letter-spacing: 0.03;  
+    color:#757575;  
+}
