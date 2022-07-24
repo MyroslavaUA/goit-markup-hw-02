@@ -4,13 +4,24 @@
 .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 26;
+    font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03;
-}
+    letter-spacing: 0.03em;
+     }
 a {
     text-decoration: none; /* Скасовуємо підкреслення у посилань */
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     }
+    
+ a:hover {
+    text-decoration: underline; /* Додаємо підкреслення */
+      }
+
    /*шрифт і колір для сторінок*/
     .style{
     font-family: 'Montserrat', sans-serif;
@@ -24,161 +35,172 @@ li {
   }
   .nav-one{
     font-weight: 500;
-    font-size: 14;
+    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2196f3;
   }
   .nav-two{
     font-weight: 500;
-    font-size: 14;
-    line-height: 1.14;
-    letter-spacing: 0.02;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
     color: #212121;
   }
   .nav-three{
     font-weight: 500;
-    font-size: 14;
+    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #212121;
    
   }
-  .number{
-    font-weight: 500;
-    font-size: 14;
-    line-height: 1.14;
-    letter-spacing: 0.02;
-    color:#757575;
-  }
+  
   /*заголовок*/
   .title{
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 44;
+    font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 0.06;
+    letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
     color:#ffffff;
-    background-color: #2f303A;
+   
   }
+.fon{
+    background-color:#2f303A;
+}
   
   .button{
-        margin: 0 auto;
-         display: block; 
-        border: 0;
-        border-radius: 5px;
-        background: #2196f3;
-        color: #fff;
-         padding: 8px 16px;
-        font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+     margin: 0 auto;
+    display: block; 
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px; 
+    background:#ffffff;
+    color:#2196f3;
   }
-  
+  /*активна кнопка при наведенні мишки*/
+  button:hover {
+    background: #2196f3;
+    color:#ffffff;
+  }
+
   /*основне*/
   .main-one{
-  font-weight: 700;
-  font-size: 14;
-  line-height: 1.14;
-  letter-spacing: 0.03;
-  text-transform: uppercase;
-  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
  
 .text{
-     font-weight: 400;
-  font-size: 14;
-  line-height: 1.71;
-  letter-spacing: 0.03;
-  color:# 757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:#757575;
   }
  
   /*робота*/
   .work{
-       font-weight: 700;
-    font-size: 36;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     text-align: center;
-    
   }
   
   /*команда*/
   .teams{
-       font-weight: 700;
-    font-size: 36;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     text-align: center;
-   
   }
 
   .team{
-       font-weight: 500;
-    font-size: 16;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03;   
+    letter-spacing: 0.03em;   
 }
 
 .team-one{
     font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03;
-       color:#757575;  
+    letter-spacing: 0.03em;
+    color:#757575;  
 }
 
 /*підвал*/
 .footer{
     background-color: #2f303A;
     }
+
 .address{
     font-style: normal;  
     font-weight: 400;
-    font-size: 14;
+    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03; 
+    letter-spacing: 0.03em; 
     color: #ffffff;
 }
+
 .link,
 .telefon{ 
     font-style: normal; 
     font-weight: 400;
-    font-size: 14;
+    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03; 
+    letter-spacing: 0.03em; 
     color: rgb(255,255,255,0.6)    
 }
 
 /*портфоліо*/
 .button-one{
-border: 0;
-border-radius: 5px;
-background: #2196f3;
-color: #fff;
-padding: 8px 16px;
-font-size: 16px;
+   font-family: 'Roboto', sans-serif; 
+   font-weight: 500; 
+   border: 0;
+   border-radius: 5px;
+   background: #2196f3;
+   color: #fff;
+   padding: 8px 16px;
+   font-size: 16px;
 }
+
 /*меню кнопки*/
 .button-two{
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.6;
-    letter-spacing: 0.03; 
+    letter-spacing: 0.03em; 
     text-align: center; 
-    
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 16px;
 }
+
 /*портфоліо роботи*/
 .work-port{
     font-weight:700;
-    font-size: 18;
+    font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06; 
-    
+    letter-spacing: 0.06em; 
 }
+
 .work-one{
     font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03;  
+    letter-spacing: 0.03em;  
     color:#757575;  
 }
